@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .spotify:hover {
     color: blue;
 }
@@ -85,14 +89,11 @@
     height: 70vh;
     position: relative;
     display: inline-block;
-    overflow: hidden;
-    overflow-x: hidden;
+   
   }
 
   .img-circle {
-    position: absolute;
-    top: 0;
-    left: 0;
+   
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -127,3 +128,19 @@
  .modal-header {
     background: linear-gradient(90deg, rgba(4,70,162,1) 0%, rgba(78,61,255,1) 0%, rgba(40,10,252,1) 0%, rgba(20,11,203,1) 0%, rgba(152,17,223,1) 56%, rgba(138,24,194,1) 100%, rgba(196,67,250,1) 100%);
  }
+
+ @media (max-width:576px) {
+    .image-text {
+        left: 50%;
+        bottom: unset;
+        top:50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .image-text br {
+        display: none;
+    }
+ }
+
+ 
