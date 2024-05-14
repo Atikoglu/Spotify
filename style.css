@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -141,6 +147,26 @@ body {
     .image-text br {
         display: none;
     }
+ }
+
+ .googleplayimg {
+    max-width: 30% !important;
+    height: auto !important;
+ }
+
+ .appstoreimg {
+    max-width: 30% !important;
+    height: auto !important;
+ }
+
+ .googleplayimg2 {
+    max-width: 20% !important;
+    height: auto !important;
+ }
+
+ .appstoreimg2 {
+    max-width: 20% !important;
+    height: auto !important;
  }
 
  
